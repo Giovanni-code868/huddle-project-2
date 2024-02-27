@@ -63,7 +63,7 @@ body{
 }
 
 .hero-content p{
-    width: 72%;
+    width: 95%;
     margin: auto;
     line-height: 1.5rem;
     margin-top: 1.5rem;
@@ -103,10 +103,11 @@ body{
 
 .cards{
     text-align: center;
-    /* border: 1px solid black */
-    padding:3rem;
+    border: solid rgb(219, 218, 218);
+    padding:1rem;
     box-shadow: -1px 1px 5px rgb(226, 225, 225);
     border-radius: 15px;
+    
 
 
 }
@@ -171,26 +172,31 @@ footer{
 
 }
 
-.containerss{
+.footerss{
     margin-top: 70%;
 }
 
-.containers1{
+.footers0 img{
+    width:60%;
+    margin-top: 50%;
+}
+
+.footers1{
     display: flex;
     margin: 6%;
-    padding-top: 60%;
+    padding-top: 0%;
 
     
 }
 
-.containers1 img{
+.footers1 img{
     width: 10%;
     height: 60%;
     margin-right: 25;
     margin-top: 10;
 }
 
-.containers1 p{
+.footers1 p{
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
@@ -199,51 +205,51 @@ footer{
 
 }
 
-.containers2{
+.footers2{
     display: flex;
     margin: 6%;
     
 }
 
-.containers2 p{
+.footers2 p{
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     line-height: 1.7rem;
 }
 
-.containers2 img{
+.footers2 img{
     height: 0%;
     margin-right: 20;
     margin-top: 3;
 }
 
 
-.containers3{
+.footers3{
     display: flex;
     margin: 6%;
     
 }
 
-.containers3 p{
+.footers3 p{
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     line-height: 1.7rem;
 }
 
-.containers3 img{
+.footers3 img{
     height: 0%;
     margin-right: 20;
     margin-top: 4;
 }
 
-.containers4{
+.footers4{
     margin: 6%;
     
 }
 
-.containers4 p{
+.footers4 p{
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
@@ -252,32 +258,152 @@ footer{
     
 }
 
-.containers5{
+.footers4{
     margin: 6%;
     
 }
-.containers5 p{
+.footers4 p{
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     line-height: 3.0rem;
 }
 
-.stressing{
+.footers5{
+    margin: 6%;
+    
+}
+.footers5 p{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    line-height: 3.0rem;
+}
+
+.icons{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    align-items: center;
+   
+    
+    
+    
    
 }
 
 /* desktop */
 @media (min-width:1024px){
-    .hero-section{
-        display: flex;
-        justify-content: space-evenly;
-       
+    /* nav -section */
+    nav img {
+        width: 20%;
     }
 
-    .cards{
-       
+    nav button{
+        width: 15%;
     }
+
+    /* hero section */
+    .hero-section{
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .hero-content{
+        width: 30%;
+        
+    }
+
+
+    .hero-content h2{
+        text-align: start;
+        width: 100%;
+    }
+
+    .hero-content p{
+        text-align: start;
+        width: 100%;
+        
+    }
+    
+    .hero-content button{
+        width: 100%;
+        
+    }
+    /* main */
+    #card-1{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        text-align: start;
+    }
+
+    #card-1 img{
+        width: 40%;
+    }
+
+    
+    
+    #card-2-main{ 
+        width: 40%;
+    }
+    #card-2{
+            display: flex;
+            align-items: center;
+            text-align: start;
+            justify-content: space-between;
+        }
+    
+    #card-2 img{
+            width: 40%;
+        }
+    
+    #card-2-main{ 
+            width: 60%;
+
+    }
+
+    #card-3-main{ 
+        width: 40%;
+    }
+    #card-3{
+            display: flex;
+            align-items: center;
+            text-align: start;
+            justify-content: space-between;
+        }
+    
+    #card-3 img{
+            width: 60%;
+        }
+    
+    #card-3-main{ 
+            width: 40%;
+            justify-content: space-between;
+
+    
+    
+
+
+
+}
+
+            
+
+    
+    
+
+
+
+    
+       
+    
+
+   
 
 
 
@@ -288,7 +414,7 @@ footer{
    
     
 
-}
+
     
 
 
